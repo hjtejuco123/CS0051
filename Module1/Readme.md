@@ -1,6 +1,7 @@
 
 <!-- This content will not appear in the rendered Markdown -->
 <!-- 
+
 # 🧠 Module 1: Introduction to Sequential, Concurrent, and Parallel Computing
 
 ---
@@ -28,19 +29,7 @@ Making a sandwich by yourself:
 ### 🧪 Code Activity: `makeSandwich`
 
 #### Step-by-step:
-```cpp
-void makeSandwich() {
-    cout << "Step 1: Get bread...\n";
-    this_thread::sleep_for(chrono::milliseconds(500)); 
-    cout << "Step 2: Add cheese...\n";
-    this_thread::sleep_for(chrono::milliseconds(500)); 
-    cout << "Step 3: Add ham...\n";
-    this_thread::sleep_for(chrono::milliseconds(500)); 
-    cout << "Step 4: Assemble the sandwich...\n";
-    this_thread::sleep_for(chrono::milliseconds(500)); 
-    cout << "Sandwich is ready!\n";
-}
-```
+*[Code Hidden – Try writing this on your own]*
 
 ✅ **Try it Yourself:**  
 1. Type and run the code.  
@@ -60,20 +49,7 @@ You toast bread and prepare coffee by alternating between them.
 ### 🧪 Code Activity: `prepareCoffeeAndToast`
 
 #### Step-by-step:
-```cpp
-while (coffeeSteps <= 3 || toastSteps <= 3) {
-    if (coffeeSteps <= 3) {
-        cout << "Preparing coffee - Step " << coffeeSteps << "\n";
-        coffeeSteps++;
-        this_thread::sleep_for(chrono::milliseconds(500));
-    }
-    if (toastSteps <= 3) {
-        cout << "Toasting bread - Step " << toastSteps << "\n";
-        toastSteps++;
-        this_thread::sleep_for(chrono::milliseconds(500));
-    }
-}
-```
+*[Code Hidden – Try writing this on your own]*
 
 ✅ **Try it Yourself:**
 - Run the code.
@@ -93,12 +69,7 @@ You wash dishes while a friend folds clothes at the same time.
 ### 🧪 Code Activity: `parallelTasks`
 
 #### Step-by-step:
-```cpp
-thread t1(washDishes);
-thread t2(foldClothes);
-t1.join(); 
-t2.join(); 
-```
+*[Code Hidden – Try writing this on your own]*
 
 ✅ **Try it Yourself:**
 - Run the code.
@@ -157,5 +128,6 @@ You are writing a simulation of preparing a school project:
 ### 🔧 Your Task:
 - Implement this using **parallel computing** with 3 threads.
 - Add realistic steps and `sleep_for` delays.
+
 
  -->
