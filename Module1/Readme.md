@@ -1,6 +1,6 @@
 
 <!-- This content will not appear in the rendered Markdown -->
-
+<!--
 
 # 🧠 Module 1: Introduction to Sequential, Concurrent, and Parallel Computing
 
@@ -129,5 +129,5 @@ You are writing a simulation of preparing a school project:
 - Implement this using **parallel computing** with 3 threads.
 - Add realistic steps and `sleep_for` delays.
 
-
+-->
 
