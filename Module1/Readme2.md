@@ -175,10 +175,12 @@ Select an activity:
 4. Organize a Party (Concurrent and Parallel)
 5. Exit
 ```
--->
 
 ---
 
 # 💬 End of Module 1
 
 Congratulations! Reflect on what you learned before moving to the next module.
+-->
+
+
