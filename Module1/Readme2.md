@@ -1,4 +1,4 @@
-
+<!--
 # 🧠 Module 1: Introduction to Sequential, Concurrent, and Parallel Computing
 
 ## 📘 Learning Objectives
