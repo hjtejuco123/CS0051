@@ -12,7 +12,7 @@ int main()
     //create 3 task 
     thread t1 (task, "Task 1");
     thread t2 (task, "Task 2");
-    thread t2 (task, "Task 3");
+    thread t3 (task, "Task 3");
     
     t1.join();
     t2.join();
