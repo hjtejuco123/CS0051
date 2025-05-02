@@ -26,6 +26,10 @@ int main()
 
 void simulateOperation(string opName, int a, int b)
 {
+    cout << "Starting " << opName 
+        << " on Thread ID" << this_thread::get_id() << " .. "<<endl;
+    
+    
     int result;
     if (opName == "Addition") result = a+b;
     else if (opName == "Subtraction") result = a-b;
