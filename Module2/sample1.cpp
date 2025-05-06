@@ -19,7 +19,7 @@ void task (string taskName)
     //start the task -> get id -> sleep(2) -> done 
     cout << " Starting Task " << taskName 
         << " on thread ID " << this_thread::get_id() << " ... " << endl;
-    this_thread::sleep_for (chrono::second(2));
+    this_thread::sleep_for (chrono::seconds(2));
     cout << taskName << "done ! " << endl; 
     
 }
