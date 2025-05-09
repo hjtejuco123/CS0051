@@ -38,7 +38,6 @@ int main() {
     };
     
     t.join();
-    // Replaced auto& loop with explicit indexing
     for (int i = 0; i < 3; i++) {
         students[i].join();
     }
