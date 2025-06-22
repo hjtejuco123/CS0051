@@ -78,6 +78,6 @@ int main() {
         cout << predictions[i].get() << endl;
     }
 
-    cout << "\n✅ All models trained and predictions complete.\n";
+    cout << "\n All models trained and predictions complete.\n";
     return 0;
 }
